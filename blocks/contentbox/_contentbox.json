@@ -1,0 +1,58 @@
+{
+  "definitions": [
+    {
+      "title": "Contentbox",
+      "id": "contentbox",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Contentbox",
+              "model": "contentbox",
+              "filter": "contentbox-filter",
+              "textContent_title": "Who <strong>we are</strong>",
+              "textContent_description": "World's <strong>leading supplier</strong> of substrate"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "contentbox",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "textContent_title",
+          "label": "Title",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "textContent_description",
+          "label": "Description",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "contentbox-filter",
+      "components": [
+        "highlight",
+        "text",
+        "image"
+      ]
+    }
+  ]
+}
