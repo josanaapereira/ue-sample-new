@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://localhost:8443/content/aem-eds-ue"
+    url: "https://localhost:8443/bin/franklin.delivery/josanaapereira/ue-sample-new/main"
     type: "markup"
     suffix: ".html"
