@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/ue-sample-new/:/",
-    "/content/ue-sample-new/configuration:/.helix/config.json",
-    "/content/ue-sample-new/metadata:/metadata.json"
+    "/content/aem-eds-ue-sample/:/",
+    "/content/aem-eds-ue-sample/configuration:/.helix/config.json",
+    "/content/aem-eds-ue-sample/metadata:/metadata.json"
   ],
   "includes": [
     "/content/ue-sample-new/"
