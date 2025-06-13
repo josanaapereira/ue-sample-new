@@ -5,6 +5,6 @@
     "/content/aem-eds-ue-sample/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/ue-sample-new/"
+    "/content/aem-eds-ue-sample/"
   ]
 }
