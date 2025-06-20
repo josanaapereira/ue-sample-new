@@ -129,15 +129,15 @@
         },
         {
           "title": "Content Box",
-          "id": "contentBox",
+          "id": "content-box",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
                   "name": "Content Box",
-                  "model": "contentBox",
-                  "filter": "contentBox"
+                  "model": "content-box",
+                  "filter": "content-box"
                 }
               }
             }

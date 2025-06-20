@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "contentBox",
+    "id": "content-box",
     "fields": [
       {
         "component": "richtext",

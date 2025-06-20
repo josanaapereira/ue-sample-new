@@ -16,7 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "contentBox"
+      "content-box"
     ]
   },
   {
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "contentBox",
+    "id": "content-box",
     "components": [
       "highlight"
     ]
