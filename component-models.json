@@ -180,6 +180,32 @@
     ]
   },
   {
+    "id": "contentBox",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "textContent_intro",
+        "value": "",
+        "label": "Intro",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "textContent_description",
+        "value": "",
+        "label": "Description",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background Image",
+        "multi": false
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -211,6 +237,25 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "highlight",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "heading",
+        "value": "",
+        "label": "Heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "value": "",
+        "label": "Description",
         "valueType": "string"
       }
     ]

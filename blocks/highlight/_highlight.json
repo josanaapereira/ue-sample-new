@@ -1,0 +1,41 @@
+{
+  "definitions": [
+    {
+      "title": "Highlight",
+      "id": "highlight",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Highlight",
+              "filter": "highlight"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "highlight",
+      "fields": [
+        {
+          "component": "richtext",
+          "name": "heading",
+          "value": "",
+          "label": "Heading",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "name": "description",
+          "value": "",
+          "label": "Description",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}
